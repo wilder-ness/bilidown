@@ -1,6 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/mLogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/account_circle"
+        android:drawablePadding="30dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/color_000000"
+        android:paddingLeft="15dp"
+        android:text="请登录"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:background="@color/color_efefef" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/history"
+        android:drawableRight="@drawable/arrow_r"
+        android:drawablePadding="30dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="@color/color_000000"
+        android:text="历史记录"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15dp"
+        android:background="@color/color_efefef" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/color_000000"
+        android:drawableLeft="@drawable/favorite_border"
+        android:drawableRight="@drawable/arrow_r"
+        android:drawablePadding="30dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="我的收藏"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:background="@color/color_efefef" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/refresh"
+        android:drawableRight="@drawable/arrow_r"
+        android:drawablePadding="30dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/color_000000"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="修复文件大小显示为0B"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:background="@color/color_efefef" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/color_000000"
+        android:drawableLeft="@drawable/settings"
+        android:drawableRight="@drawable/arrow_r"
+        android:drawablePadding="30dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="应用设置"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15dp"
+        android:background="@color/color_efefef" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/help_outline"
+        android:drawableRight="@drawable/arrow_r"
+        android:drawablePadding="30dp"
+        android:textColor="@color/color_000000"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="使用帮助"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:background="@color/color_efefef" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/favorite"
+        android:drawableRight="@drawable/arrow_r"
+        android:drawablePadding="30dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/color_000000"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="赞助作者"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</LinearLayout>
